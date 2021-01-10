@@ -16,5 +16,5 @@ _start:
     sub     w6, w6, #1
     cbnz    w6, 3b
 
-4:  bl      main
+4:  bl      shell_kernel
     b 1b

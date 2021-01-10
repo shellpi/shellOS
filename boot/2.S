@@ -28,7 +28,7 @@ _start:
 	cmp r4, r9
 	blo 1b
 
-	ldr r3, =main
+	ldr r3, =shell_kernel
 	blx r3
 
 
