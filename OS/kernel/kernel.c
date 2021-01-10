@@ -5,6 +5,9 @@
  * output: kernel.o
  ************************************************/
 
+/* This kernel was made following the wiki.osdev.org
+raspberry pi tutorial */
+
 #include <stdint.h>
 #include "settings.h"
 
