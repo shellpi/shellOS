@@ -1,9 +1,9 @@
-/******************************************
+/************************************************
  * file: kernel.c
  * description: shellOS kernel main file
- * include: UART.o, MMIO.o, utils.o
+ * include: UART.o, MMIO.o, utils.o, alloc.o
  * output: kernel.o
- ******************************************/
+ ************************************************/
 
 #include <stdint.h>
 #include "settings.h"
