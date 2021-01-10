@@ -6,9 +6,15 @@
 
 
 // DO NOT EDIT BELOW THIS LINE!!
+#if RASPI >= 3
+ #define AARCH64
+#else
+ #define AARCH32
+#endif
+
 enum __RASPI_MEMORY_DIRECTIONS__ {
 // MMIO
-switch (raspi) {
+switch (RASPI) {
 case 2:
 case 3:  MMIO_BASE = 0x3F000000; break;
 case 4:  MMIO_BASE = 0xFE000000; break;
